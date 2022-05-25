@@ -1,1 +1,1 @@
-echo "Welcome to CGI"
+echo "Welcome to IIHT through CGI"
