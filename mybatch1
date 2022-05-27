@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git 'https://github.com/SashiDuratech/jenkinsdemocgi.git'
+                git 'https://github.com/chandravasa/Jenkinsdemocgi.git'
                 bat "./mybatch.bat"
             }
         }
         stage('Hello1') {
             steps {
-                git 'https://github.com/SashiDuratech/jenkinsdemocgi.git'
+                git 'https://github.com/chandravasa/Jenkinsdemocgi.git'
                 bat "./mybatch1.bat"
             }
         }
